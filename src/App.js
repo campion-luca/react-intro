@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import ButtonComponent from './components/ButtonComponent';
+import ImageComponent from './components/ImageComponent';
 
 function App() {
   return (
@@ -16,6 +18,13 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
+
+          <ButtonComponent name="Luca" />
+          <ButtonComponent name="Campion" />
+          <ButtonComponent name="terzo" />
+
+          <ImageComponent srcinput= "https://www.tesoridialarico.it/wp-content/uploads/2024/03/canstockphoto22402523-arcos-creator.com_-1024x1024-1.jpg" altinput="foto di prova" />
+
         </a>
       </header>
     </div>
